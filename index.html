@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>YGO Arena</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="assets/cards.js"></script>
+        
+    </head>
+    <body>
+      <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-1"></div> -->
+        <button type="button" id = 'first'>Choice 1</button>
+        <div class="col-md-3">
+          <div id="choice1">
+            <div id="set1slot1"></div>
+            <div id="set1slot2"></div>
+            <div id="set1slot3"></div>
+            <div id="set1slot4"></div>
+            <div id="set1slot5"></div>
+          </div>
+          <br>
+          <br>
+        </div>
+        
+        <!-- <div class="col-md-4"> -->
+      </div>
+
+      <div class="row">
+        <button type="button" id = 'second'>Choice 2</button>
+        <div class="col-md-3">
+          <div id="choice2">
+            <div id="set2slot1"></div>
+            <div id="set2slot2"></div>
+            <div id="set2slot3"></div>
+            <div id="set2slot4"></div>
+            <div id="set2slot5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="monster"><b>Monster (<span id="monstercount"></span>): </b></div>
+        <p id = "monsterlist"></p>
+      <div id="spell"><b>Spell (<span id="spellcount"></span>): </b></div>
+        <p id = "spelllist"></p>
+      <div id="trap"><b>Trap (<span id="trapcount"></span>): </b></div>
+        <p id = "traplist"></p>
+      <div id="extra"><b>Extra (<span id="extracount"></span>): </b></div>
+        <p id = "extralist"></p>
+    
+    <div id = "cardIdButton">
+    </div>
+    <div id = "ydkInstructions">
+    </div>
+    <div id = "ydkSection">
+    </div>
+
+
+    </body>
+  <script src="assets/logic.js"></script>
+  </html>
