@@ -91,8 +91,8 @@ var m065 = new card("Speedroid Tri-Eyed Dice", "Monster", "27660735");
 var m066 = new card("Level Warrior", "Monster", "97385276");
 var m067 = new card("Abyss Actor - Curtain Raiser", "Monster", "44179224");
 var m068 = new card("Edge Imp Sabres", "Monster", "30068120");
-// var m069 = new card("Monster 69", "Monster", "1");
-// var m070 = new card("Monster 70", "Monster", "1");
+var m069 = new card("Quillbolt Hedgehog", "Monster", "23571046");
+var m070 = new card("Performapal Five-Rainbow Magician", "Monster", "19619755");
 // var m071 = new card("Monster 71", "Monster", "1");
 // var m072 = new card("Monster 72", "Monster", "1");
 // var m073 = new card("Monster 73", "Monster", "1");
@@ -234,7 +234,7 @@ var t040 = new card("Evenly Matched", "Trap", "15693423");
 
 
 var e001 = new card("Decode Talker", "Link", "01861629");
-var e002 = new card("Mekk-Knight Crusadia Avramax", "Link", "21887175");
+var e002 = new card("Amphibious Swarmship Amblowhale", "Link", "20665527");
 var e003 = new card("Pentestag", "Link", "72336818");
 var e004 = new card("PSY-Framelord Omega", "Synchro", "74586817");
 var e005 = new card("Trishula, the Dragon of Icy Imprisonment", "Fusion", "15661378");

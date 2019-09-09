@@ -18,18 +18,18 @@ generateSequence();
 iterateSequence();
 
 $("#first").click(function(){
-		if (sequence.length !== 0){
-			var selected = document.getElementById("choice1").innerHTML;
-			addtodeck(sequence, category, true);
-		}
-	});
+	if (sequence.length !== 0){
+		var selected = document.getElementById("choice1").innerHTML;
+		addtodeck(sequence, category, true);
+	}
+});
 
-	$("#second").click(function(){
-		if (sequence.length !== 0){
-			var selected = document.getElementById("choice2").innerHTML;
-			addtodeck(sequence, category, false);
-		}
-	});
+$("#second").click(function(){
+	if (sequence.length !== 0){
+		var selected = document.getElementById("choice2").innerHTML;
+		addtodeck(sequence, category, false);
+	}
+});
 
 function generateSequence(){
 	for (var i = 0; i < 5; i++){
@@ -137,7 +137,6 @@ function addtodeck(sequence, category, choice){
 			var card4 = document.getElementById("set1slot4").innerHTML;
 			var card5 = document.getElementById("set1slot5").innerHTML;
 		}
-
 	}
 	else if (choice == false){
 		var card1 = document.getElementById("set2slot1").innerHTML;
@@ -284,12 +283,11 @@ function generateYDK(){
 			if (Edeck[x] == cardList[i].name){
 				ydkContent += cardList[i].cardNum + "<br />";
 			}
-
 		}
 	}
 // adds the generated ydk content to the page
 	document.getElementById("ydkSection").innerHTML = ydkContent;
-	}
+}
 
 // WIP function to make a clipboard button
 function ydkClipboard() {
